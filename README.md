@@ -1,6 +1,6 @@
 # Call Attendant 2022 Working Version maintained
 
-#### `pip install callattendant`
+#### `pip install https://github.com/C0nw0nk/callattendant/archive/refs/heads/master.zip`
 
 The Call Attendant (__callattendant__) is an auto attendant with an integrated call blocker and 
 voice messaging system running on a Raspberry Pi. It stops annoying robocalls and spammers from
@@ -126,10 +126,10 @@ your _PATH_ so that the system looks for python and its packages within this fol
 The software is available on [PyPI](https://pypi.org/project/callattendant/). Install and update using `pip`:
 ```bash
 # Using the virtual environment you use "pip" to install the software
-pip install callattendant
+pip install https://github.com/C0nw0nk/callattendant/archive/refs/heads/master.zip
 
 # You must use "pip3" on the Pi if your not using a virtual environment
-pip3 install callattendant
+pip3 install https://github.com/C0nw0nk/callattendant/archive/refs/heads/master.zip
 ```
 
 If your not using the virtual environment, you may need to reboot or logoff/login to update the
@@ -232,6 +232,7 @@ Press `ctrl-c` to shutdown the system
 
 ### Web Interface
 #### URL: `http://<pi-address>|<pi-hostname>:5000`
+#### Hostname could be: `http://raspberrypi:5000/`
 To view the web interface, simply point your web browser to port `5000` on your Raspberry Pi.
 For example, in your Raspberry Pi's browser, you can use:
 ```
