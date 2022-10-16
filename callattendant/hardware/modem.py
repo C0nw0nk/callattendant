@@ -829,6 +829,8 @@ class Modem(object):
                 if not self._send(SET_COUNTRY_CODE + self.config["COUNTRY_CODE"]):
                     print("Error: Failed to set country code.")
 
+            self._send(ENABLE_FORMATTED_CID)
+
             # Save these settings to a profile
             if not self._send("AT&W0"):
                 print("Error: Failed to store profile.")
