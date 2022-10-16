@@ -74,7 +74,7 @@ def test_profile_reset(modem):
 
 
 def test_country_code(modem):
-    assert modem._send(SET_COUNTRY_CODE+"B5")
+    assert modem._send(SET_COUNTRY_CODE+"B4")
 
 
 def test_get_modem_settings(modem):
