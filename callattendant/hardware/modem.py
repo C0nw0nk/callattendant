@@ -830,6 +830,7 @@ class Modem(object):
                     print("Error: Failed to set country code.")
 
             self._send(ENABLE_FORMATTED_CID)
+            self._send(ENTER_VOICE_MODE)
 
             # Save these settings to a profile
             if not self._send("AT&W0"):
