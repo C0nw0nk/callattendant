@@ -57,12 +57,12 @@ PHONE_DISPLAY_SEPARATOR = "-"
 #  Example: Raw - no formatting
 #  PHONE_DISPLAY_FORMAT = ""
 #
-PHONE_DISPLAY_FORMAT = "###-###-####"
+PHONE_DISPLAY_FORMAT = "####-###-####"
 
 # Country code for CLI to work, default B5 is USA, B4 is UK
 # see https://opengear.zendesk.com/hc/en-us/articles/216371103-ACM5003-M-Modem-Country-Code-List
 # for others
-COUNTRY_CODE = "B5"
+COUNTRY_CODE = "B4"
 
 # SCREENING_MODE: A tuple containing: "whitelist" and/or "blacklist", or empty
 SCREENING_MODE = ("whitelist", "blacklist")
@@ -98,7 +98,7 @@ PERMIT_NUMBER_PATTERNS = {}
 #   name/number patterns are used to block numbers.
 #
 #   Example: "NOMOROBO" (USA)  or "" (disabled).
-BLOCK_SERVICE = "NOMOROBO"
+BLOCK_SERVICE = ""
 
 
 # BLOCKED_ACTIONS: A tuple containing following actions:
