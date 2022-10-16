@@ -1,5 +1,4 @@
-# Call Attendant
-![PyPI](https://img.shields.io/pypi/v/callattendant?style=flat&link=https://pypi.org/project/callattendant/) ![PyPI - License](https://img.shields.io/pypi/l/callattendant?link=https://github.com/emxsys/callattendant/blob/master/LICENSE) ![PyPI - Status](https://img.shields.io/pypi/status/callattendant) ![GitHub Workflow Status](https://img.shields.io/github/workflow/status/emxsys/callattendant/callattendant)
+# Call Attendant 2022 Working Version maintained
 
 #### `pip install callattendant`
 
@@ -12,15 +11,14 @@ The __callattendant__ provides international support with configurable phone num
 flexible and editable blocked-number and permitted-number lists.
 
 _If you're at all interested in this project, please provide some feedback by giving it a
-__[star](https://github.com/emxsys/callattendant/stargazers)__, or even better, get involved
-by filing [issues](https://github.com/emxsys/callattendant/issues), joining the 
+__[star](https://github.com/C0nw0nk/callattendant/stargazers)__, or even better, get involved
+by filing [issues](https://github.com/C0nw0nk/callattendant/issues), joining the 
 [forum](https://groups.io/g/callattendant) and/or submitting 
-[pull requests](https://github.com/emxsys/callattendant/pulls).
+[pull requests](https://github.com/C0nw0nk/callattendant/pulls).
 Thanks!_
 
 #### Support Links
-- [Web Page](https://emxsys.github.io/callattendant/)
-- [Wiki](https://github.com/emxsys/callattendant/wiki)
+- [Wiki](https://github.com/C0nw0nk/callattendant/wiki)
 - [Forum](https://groups.io/g/callattendant)
 
 #### Table of Contents
@@ -52,22 +50,22 @@ e.g, "Press 1 to leave a message"
 You can review call history, voice messages, permitted and blocked numbers, and performing caller
 management through the Call Attendant's web interface. Here is an example of the home page with metrics
 and a convienient list of recent calls. For a complete description see the
-[User Guide](https://github.com/emxsys/callattendant/wiki/User-Guide).
+[User Guide](https://github.com/C0nw0nk/callattendant/wiki/User-Guide).
 
 ##### _Screenshots of the home page as seen on an IPad Pro and a Pixel 2 phone_
-![Dashboard-Responsive](https://github.com/emxsys/callattendant/raw/master/docs/dashboard-responsive.png)
+![Dashboard-Responsive](https://github.com/C0nw0nk/callattendant/raw/master/docs/dashboard-responsive.png)
 
 ### Documentation
 The project wiki on GitHub contains the documentation for the Call Attendant:
 
-- See the [Wiki Home](https://github.com/emxsys/callattendant/wiki/Home) for complete
+- See the [Wiki Home](https://github.com/C0nw0nk/callattendant/wiki/Home) for complete
 installation, configuration, and operation instructions.
-- See the [User Guide](https://github.com/emxsys/callattendant/wiki/User-Guide) section for the
+- See the [User Guide](https://github.com/C0nw0nk/callattendant/wiki/User-Guide) section for the
 web interface instructions.
-- The [Developer Guide](https://github.com/emxsys/callattendant/wiki/Developer-Guide) section
+- The [Developer Guide](https://github.com/C0nw0nk/callattendant/wiki/Developer-Guide) section
 describes the software architecture and software development plan, and shows you how to setup
 your software development environment.
-- The [Advanced](https://github.com/emxsys/callattendant/wiki/Advanced) section addresses more
+- The [Advanced](https://github.com/C0nw0nk/callattendant/wiki/Advanced) section addresses more
 complex setups and situations. For instance, _Running as a Service_.
 
 
@@ -76,10 +74,10 @@ The __callattendant__ uses the following hardware:
 - [Raspberry Pi 3B+](https://www.amazon.com/ELEMENT-Element14-Raspberry-Pi-Motherboard/dp/B07P4LSDYV/ref=sr_1_4?dchild=1&keywords=raspberry+pi+3&qid=1598057138&sr=8-4) or better
 - [US Robotics 5637 Modem](https://www.amazon.com/gp/product/B0013FDLM0/ref=ppx_yo_dt_b_asin_image_o03_s00?ie=UTF8&psc=1) 
 or the [Zoom 3095 Modem](https://www.amazon.com/Zoom-Model-3095-USB-Modem/dp/B07HHKG6HR). Other Conexant-based
-modems may work.
+modems may work. https://www.amazon.co.uk/gp/product/B01MYLE06I/ref=ppx_yo_dt_b_asin_title_o05_s00?ie=UTF8&psc=1
 
 ##### _Photo of the required hardware: a Raspberry Pi 3B+ and USR5637 modem_
-![Raspberry Pi and USR5637 Modem](https://github.com/emxsys/callattendant/raw/master/docs/raspberry_pi-modem.jpg)
+![Raspberry Pi and USR5637 Modem](https://github.com/C0nw0nk/callattendant/raw/master/docs/raspberry_pi-modem.jpg)
 
 ---
 
@@ -240,7 +238,7 @@ For example, in your Raspberry Pi's browser, you can use:
 http://localhost:5000/
 ```
 
-See the [User Guide](https://github.com/emxsys/callattendant/wiki/User-Guide) for more information.
+See the [User Guide](https://github.com/C0nw0nk/callattendant/wiki/User-Guide) for more information.
 
 ---
 
@@ -256,7 +254,7 @@ Then specify the configuration file and path on the command line, e.g.:
 ```
 callattendant --config app.cfg
 ```
-See the [Configuration](https://github.com/emxsys/callattendant/wiki/Home#configuration)
+See the [Configuration](https://github.com/C0nw0nk/callattendant/wiki/Home#configuration)
 section in the project's wiki for more information.
 
 ---
