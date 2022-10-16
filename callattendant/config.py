@@ -29,12 +29,12 @@ default_config = {
     "SCREENING_MODE": ("whitelist", "blacklist"),
 
     "PHONE_DISPLAY_SEPARATOR": "-",
-    "PHONE_DISPLAY_FORMAT": "###-###-####",
+    "PHONE_DISPLAY_FORMAT": "####-###-####",
 
-    "COUNTRY_CODE": "B5",
+    "COUNTRY_CODE": "B4",
 
     "BLOCK_ENABLED": True,
-    "BLOCK_SERVICE": "NOMOROBO",
+    "BLOCK_SERVICE": "",
 
     "BLOCK_NAME_PATTERNS": {"V[0-9]{15}": "Telemarketer Caller ID", },
     "BLOCK_NUMBER_PATTERNS": {},
