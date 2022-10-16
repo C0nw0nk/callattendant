@@ -38,6 +38,7 @@ import sys
 import threading
 import time
 import wave
+import locale
 
 from datetime import datetime
 from pprint import pprint
@@ -828,6 +829,12 @@ class Modem(object):
             if "COUNTRY_CODE" in self.config:
                 if not self._send(SET_COUNTRY_CODE + self.config["COUNTRY_CODE"]):
                     print("Error: Failed to set country code.")
+
+            #Auto set country code based of system language
+            if locale.getdefaultlocale()[0] == "en_GB":
+                self._send(SET_COUNTRY_CODE + "B4")
+            if locale.getdefaultlocale()[0] == "en_US":
+                self._send(SET_COUNTRY_CODE + "B5")
 
             self._send(ENABLE_FORMATTED_CID)
             self._send(ENTER_VOICE_MODE)
