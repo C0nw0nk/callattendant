@@ -847,6 +847,22 @@ class Modem(object):
                 self._send(SET_COUNTRY_CODE + "26")
             if locale.getdefaultlocale()[0] == "ja_JP":
                 self._send(SET_COUNTRY_CODE + "00")
+            if locale.getdefaultlocale()[0] == "es_ES":
+                self._send(SET_COUNTRY_CODE + "A0")
+            if locale.getdefaultlocale()[0] == "nl_BE":
+                self._send(SET_COUNTRY_CODE + "0F")
+            if locale.getdefaultlocale()[0] == "hi_IN":
+                self._send(SET_COUNTRY_CODE + "53")
+            if locale.getdefaultlocale()[0] == "en_AU":
+                self._send(SET_COUNTRY_CODE + "09")
+            if locale.getdefaultlocale()[0] == "en_IE":
+                self._send(SET_COUNTRY_CODE + "57")
+            if locale.getdefaultlocale()[0] == "ko_KR":
+                self._send(SET_COUNTRY_CODE + "61")
+            if locale.getdefaultlocale()[0] == "pt_PT":
+                self._send(SET_COUNTRY_CODE + "8B")
+            if locale.getdefaultlocale()[0] == "pt_BR":
+                self._send(SET_COUNTRY_CODE + "16")
 
             self._send(ENABLE_FORMATTED_CID)
             self._send(ENTER_VOICE_MODE)
