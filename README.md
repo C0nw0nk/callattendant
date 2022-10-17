@@ -1,6 +1,11 @@
 # Call Attendant 2022 Working Version maintained
 
-#### `pip install https://github.com/C0nw0nk/callattendant/archive/refs/heads/master.zip`
+Open console run
+#### `pip3 install https://github.com/C0nw0nk/callattendant/archive/refs/heads/master.zip`
+
+Then Run `Callattendant`
+
+Call your phone access web interface enjoy!
 
 Once installed to your PI OS just run `callattendant` in Putty SSH remote desktop or what ever you use to interface with a console.
 
