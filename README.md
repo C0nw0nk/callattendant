@@ -2,6 +2,8 @@
 
 #### `pip install https://github.com/C0nw0nk/callattendant/archive/refs/heads/master.zip`
 
+Once installed to your PI OS just run `callattendant` in Putty SSH remote desktop or what ever you use to interface with a console.
+
 The Call Attendant (__callattendant__) is an auto attendant with an integrated call blocker and 
 voice messaging system running on a Raspberry Pi. It stops annoying robocalls and spammers from
 interrupting your life. Let the Call Attendant intercept and block robocallers and telemarketers
