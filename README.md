@@ -1,6 +1,6 @@
 # Call Attendant 2022 Working Version maintained
 
-Open console run
+Open console run this will replace the old outdated callattendant :)
 #### `pip3 install https://github.com/C0nw0nk/callattendant/archive/refs/heads/master.zip`
 
 Then Run `Callattendant`
