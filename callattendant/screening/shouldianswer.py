@@ -29,6 +29,7 @@ from bs4 import BeautifulSoup
 import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
 
+user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:105.0) Gecko/20100101 Firefox/105.0'
 
 class ShouldIAnswer(object):
 
@@ -77,7 +78,7 @@ class ShouldIAnswer(object):
         print(result)
         return result
 
-    def http_get(self, url, add_headers={}, allowed_codes=[]):
+    def http_get(self, url, add_headers={'User-Agent': user_agent,}, allowed_codes=[]):
         data = ""
         try:
             request = urllib.request.Request(url, headers=add_headers)
