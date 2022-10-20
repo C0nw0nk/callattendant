@@ -200,6 +200,9 @@ VOICE_MAIL_MENU_FILE = "resources/voice_mail_menu.wav"
 #   This should not be changed/overridden except during development/testing
 #VOICE_MAIL_MESSAGE_FOLDER = "messages"
 
+# Record Voice Mail variables
+REC_VM_MAX_DURATION = 120  # Time in Seconds
+
 # GPIO_LED_..._PIN: These values are the GPIO pin numbers attached to the LED indicators
 # GPIO_LED_..._BRIGHTNESS: These values are a percentage of brightness for the LED indicators when on.
 GPIO_LED_RING_PIN = 14
