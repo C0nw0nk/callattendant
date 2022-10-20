@@ -491,7 +491,7 @@ class Modem(object):
                         break
 
                 # Timeout
-                if ((datetime.now() - start_time).seconds) > REC_VM_MAX_DURATION:
+                if ((datetime.now() - start_time).seconds) > self.config["REC_VM_MAX_DURATION"]:
                     print(">> Stop recording: max time limit reached.")
                     break
 
