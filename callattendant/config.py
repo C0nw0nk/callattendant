@@ -60,6 +60,7 @@ default_config = {
     "VOICE_MAIL_LEAVE_MESSAGE_FILE": "resources/please_leave_message.wav",
     "VOICE_MAIL_MENU_FILE": "resources/voice_mail_menu.wav",
     "VOICE_MAIL_MESSAGE_FOLDER": "messages",
+    "REC_VM_MAX_DURATION": 120,
 
     "GPIO_LED_RING_PIN": 14,
     "GPIO_LED_RING_BRIGHTNESS": 100,
