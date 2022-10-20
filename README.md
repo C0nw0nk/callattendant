@@ -19,8 +19,7 @@ Buy any 56K RJ11 modem from Aamazon ebay this should work with them all if not w
 ```
 /home/pi/.callattendant/app.cfg
 ```
-
-Run from SSH or terminal :
+# Run from SSH or terminal :
 ```
 callattendant --config app.cfg
 ```
