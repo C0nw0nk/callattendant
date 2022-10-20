@@ -36,8 +36,8 @@ default_config = {
     "BLOCK_ENABLED": True,
     "BLOCK_SERVICE": "",
 
-    "BLOCK_NAME_PATTERNS": {"V[0-9]{15}": "Telemarketer Caller ID", },
-    "BLOCK_NUMBER_PATTERNS": {},
+    "BLOCK_NAME_PATTERNS": {"V[0-9]{15}": "Telemarketer Caller ID", "O": "Unknown caller", },
+    "BLOCK_NUMBER_PATTERNS": {"P": "Private number", "O": "Out of area",},
 
     "PERMIT_NAME_PATTERNS": {},
     "PERMIT_NUMBER_PATTERNS": {},
