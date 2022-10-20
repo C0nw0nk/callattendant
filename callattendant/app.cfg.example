@@ -74,12 +74,12 @@ BLOCK_ENABLED = True
 # BLOCK_NAME_PATTERNS: Block calls based on a RegEx expression dict applied
 # to the CID names: {"regex": "description", ... }
 #   Example: {"V[0-9]{15}": "Telemarketer Caller ID", "O": "Unknown caller"}
-BLOCK_NAME_PATTERNS = {"V[0-9]{15}": "Telemarketer Caller ID", }
+BLOCK_NAME_PATTERNS = {"V[0-9]{15}": "Telemarketer Caller ID", "O": "Unknown caller", }
 
 # BLOCK_NUMBER_PATTERNS: Block calls based on a dict of regular expressions
 # applied to the CID numbers: {"regex": "description", ... }
 #   Example: {"P": "Private number", "O": "Out of area",}
-BLOCK_NUMBER_PATTERNS = {}
+BLOCK_NUMBER_PATTERNS = {"P": "Private number", "O": "Out of area",}
 
 # PERMIT_NAME_PATTERNS: Permit calls based on a RegEx expression dict
 # applied to the CID names: {"regex": "description", ... }
@@ -97,7 +97,8 @@ PERMIT_NUMBER_PATTERNS = {}
 #   to blank. When the online service is blank (disabled), only the blacklist and blocked
 #   name/number patterns are used to block numbers.
 #
-#   Example: "NOMOROBO" (USA)  or "" (disabled).
+#   Example: "NOMOROBO" (USA) "SHOULDIANSWER" (UK)  or "" (disabled).
+#BLOCK_SERVICE = "SHOULDIANSWER"
 BLOCK_SERVICE = ""
 
 
