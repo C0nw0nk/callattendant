@@ -11,6 +11,21 @@ Once installed to your PI OS just run `callattendant` in Putty SSH remote deskto
 
 Buy any 56K RJ11 modem from Aamazon ebay this should work with them all if not we will make it work!
 
+# Configuration folder :
+```
+/home/pi/.callattendant/
+```
+# Configuration file :
+```
+/home/pi/.callattendant/app.cfg
+```
+
+Run from SSH or terminal :
+```
+callattendant --config app.cfg
+```
+
+
 The Call Attendant (__callattendant__) is an auto attendant with an integrated call blocker and 
 voice messaging system running on a Raspberry Pi. It stops annoying robocalls and spammers from
 interrupting your life. Let the Call Attendant intercept and block robocallers and telemarketers
