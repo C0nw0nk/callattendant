@@ -24,14 +24,14 @@ Buy any 56K RJ11 modem from Aamazon ebay this should work with them all if not w
 callattendant --config app.cfg
 ```
 
-#Added Features that i have fixed/added myself :
+# Added Features that i have fixed/added myself :
 ```
 Voicemail recording length is now a configuration variable easy to change
 Country codes working with all modem types you no longer need or require a US robotics modem it will work with any outside of the US.
 ShouldIAnswer added as a UK spam call checker previously only nomorobo existed
 ```
 
-#Currently Building to add to github my TODO list :
+# Currently Building to add to github my TODO list :
 ```
 TrueCaller spam checker
 Who-Called spam checker (requires selenium because of cloudflare anti-ddos / scrapping)
