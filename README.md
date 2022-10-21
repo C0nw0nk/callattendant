@@ -24,6 +24,19 @@ Buy any 56K RJ11 modem from Aamazon ebay this should work with them all if not w
 callattendant --config app.cfg
 ```
 
+#Added Features that i have fixed/added myself :
+```
+Voicemail recording length is now a configuration variable easy to change
+Country codes working with all modem types you no longer need or require a US robotics modem it will work with any outside of the US.
+ShouldIAnswer added as a UK spam call checker previously only nomorobo existed
+```
+
+#Currently Building to add to github my TODO list :
+```
+TrueCaller spam checker
+Who-Called spam checker (requires selenium because of cloudflare anti-ddos / scrapping)
+Passworded Phone calls - DTFM keypad presses every number or digit you press on a phone makes its own noise this is useful because I can make it a feature that when someone calls you they must eneter a set of digits for the call to go through if not the modem will hang up on them.
+```
 
 The Call Attendant (__callattendant__) is an auto attendant with an integrated call blocker and 
 voice messaging system running on a Raspberry Pi. It stops annoying robocalls and spammers from
