@@ -243,6 +243,11 @@ class CallAttendant(object):
         # Go "off-hook" - Acquires a lock on the modem - MUST follow with hang_up()
         if self.modem.pick_up():
             try:
+                # Enter Matching Digit passcode to gain access
+                if "passcode" in actions:
+                    print(">> Checking Passcode...")
+                    self.modem.check_passcode(call_no, caller)
+                
                 # Play greeting
                 if "greeting" in actions:
                     print(">> Playing greeting...")
@@ -272,9 +277,10 @@ class CallAttendant(object):
                 The caller ID data
         """
         # Answer
-        self.modem.pick_up()
+        #self.modem.pick_up()
         # Go "on-hook"
-        self.modem.hang_up()
+        #self.modem.hang_up()
+        
         pass
 
     def wait_for_rings(self, rings_before_answer):
