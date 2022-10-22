@@ -271,6 +271,10 @@ class CallAttendant(object):
             :param caller:
                 The caller ID data
         """
+        # Answer
+        self.modem.pick_up()
+        # Go "on-hook"
+        self.modem.hang_up()
         pass
 
     def wait_for_rings(self, rings_before_answer):
