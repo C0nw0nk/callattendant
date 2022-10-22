@@ -21,7 +21,17 @@ Buy any 56K RJ11 modem from Aamazon ebay this should work with them all if not w
 ```
 # Run from SSH or terminal :
 ```
+# Creating the default data folder with the default configuration
+callattendant --create-folder
+CTRL+C to shutdown callattendant
+
+# Using the default configuration
+callattendant
+CTRL+C to shutdown callattendant
+
+# Use custom modified config in path /home/pi/.callattendant/app.cfg
 callattendant --config app.cfg
+CTRL+C to shutdown callattendant
 ```
 
 # Added Features that i have fixed/added myself :
