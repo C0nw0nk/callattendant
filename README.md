@@ -3,7 +3,7 @@
 Open console run this will replace the old outdated callattendant :) If you do not have it installed it will freshly install it for you!
 #### `pip3 install https://github.com/C0nw0nk/callattendant/archive/refs/heads/master.zip`
 
-Then Run `Callattendant`
+Then Run `Callattendant --create-folder` To create the config files required for callattendant to run
 
 Call your phone access web interface enjoy!
 
